@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#game{
+    border: solid 1px red;
+    height:100vh;
+}
+
+#principal {
+    height: 75%;
+}
+
+div#personagem {
+    width: 100px;
+}
+img {
+    width:100px;
+}
+
+
+#controles{
+    display: flex;
+    justify-content: space-around;
+}
+
+#acoes {
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+}
+#controle{
+    display: flex;
+    flex-direction: column;
+}
+
+.linha {
+    display: flex;
+    height: 20px;
+}
+.celulas {
+    width: 70px;
+}
+button{
+    width: 70px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: dodgerblue;
+    color: whitesmoke;
+}
+

@@ -9,14 +9,20 @@
 }
 
 #principal {
+    background-image: url('../img/brasao-uneb2.jpg');
+    background-repeat: no-repeat;
+    position: relative;
     height: 75%;
 }
 
 div#personagem {
+    position: absolute;
     width: 100px;
+    height: 120px;
 }
 img {
     width:100px;
+    height:120px;
 }
 
 
